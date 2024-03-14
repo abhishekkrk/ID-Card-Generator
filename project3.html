@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID Card Generator</title>
+  <link rel="stylesheet" href="project3.css">
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-content">
+      <header>
+        <h2 class="title">ID Card Generator</h2>
+      </header>
+
+      <h4 class="form-title">Enter Student Details</h4>
+      <form name="id-card" class="form">
+        <label>
+          Enter Name:
+          <br>
+          <input type="text" name="name" required>
+        </label>
+        <br>
+        <label>
+          Enter College Name:
+          <br>
+          <input type="text" name="college" required>
+        </label>
+        <br>
+        <label>
+          Enter Location:
+          <br>
+          <input type="text" name="location" required>
+        </label>
+        <br>
+        <label>
+          Enter student's picture:
+          <br>
+          <input type="file" name="picture" required>
+        </label>
+        <br>
+        <button type="submit" class="generate-card">Generate Card</button>
+      </form>
+    </div>
+
+    <div class="card-content">
+      <div class="card"></div>
+    </div>
+  </div>
+
+  <script src="project3.js"></script>
+</body>
+
+</html>
